@@ -1,0 +1,168 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Framecell = Instance.new("Frame")
+local Nome = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local BloxFruitcell = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local SEA1 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local SEA3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local SEA2 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Abrirfecha = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Framecell.Name = "Framecell"
+Framecell.Parent = ScreenGui
+Framecell.BackgroundColor3 = Color3.fromRGB(144, 255, 53)
+Framecell.Position = UDim2.new(0.298645854, 0, 0.26832661, 0)
+Framecell.Size = UDim2.new(0, 321, 0, 207)
+
+Nome.Name = "Nome"
+Nome.Parent = Framecell
+Nome.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Nome.Position = UDim2.new(0, 0, -0.00483091781, 0)
+Nome.Size = UDim2.new(0, 321, 0, 33)
+Nome.Font = Enum.Font.SciFi
+Nome.Text = "Kaudrango"
+Nome.TextColor3 = Color3.fromRGB(255, 0, 4)
+Nome.TextScaled = true
+Nome.TextSize = 14.000
+Nome.TextWrapped = true
+
+UICorner.Parent = Nome
+
+UICorner_2.Parent = Framecell
+
+BloxFruitcell.Name = "BloxFruitcell"
+BloxFruitcell.Parent = Framecell
+BloxFruitcell.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BloxFruitcell.Position = UDim2.new(-0.00062790513, 0, 0.152919576, 0)
+BloxFruitcell.Size = UDim2.new(0, 321, 0, 26)
+BloxFruitcell.Font = Enum.Font.RobotoMono
+BloxFruitcell.Text = "Blox Fruit Celular"
+BloxFruitcell.TextColor3 = Color3.fromRGB(34, 237, 255)
+BloxFruitcell.TextScaled = true
+BloxFruitcell.TextSize = 14.000
+BloxFruitcell.TextWrapped = true
+
+UICorner_3.Parent = BloxFruitcell
+
+SEA1.Name = "SEA1"
+SEA1.Parent = Framecell
+SEA1.BackgroundColor3 = Color3.fromRGB(182, 130, 255)
+SEA1.Position = UDim2.new(0, 0, 0.278143406, 0)
+SEA1.Size = UDim2.new(0, 161, 0, 73)
+SEA1.Font = Enum.Font.PatrickHand
+SEA1.Text = "SEA 1"
+SEA1.TextColor3 = Color3.fromRGB(0, 0, 0)
+SEA1.TextScaled = true
+SEA1.TextSize = 14.000
+SEA1.TextWrapped = true
+
+UICorner_4.Parent = SEA1
+SEA1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/NReLfemJ", true))()
+end)
+
+SEA3.Name = "SEA3"
+SEA3.Parent = Framecell
+SEA3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+SEA3.Position = UDim2.new(0, 0, 0.630800426, 0)
+SEA3.Size = UDim2.new(0, 321, 0, 76)
+SEA3.Font = Enum.Font.PatrickHand
+SEA3.Text = "SEA 3"
+SEA3.TextColor3 = Color3.fromRGB(0, 0, 0)
+SEA3.TextScaled = true
+SEA3.TextSize = 14.000
+SEA3.TextWrapped = true
+
+UICorner_5.Parent = SEA3
+SEA3.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/NReLfemJ", true))()
+end)
+
+SEA2.Name = "SEA2"
+SEA2.Parent = Framecell
+SEA2.BackgroundColor3 = Color3.fromRGB(252, 255, 37)
+SEA2.Position = UDim2.new(0.504045069, 0, 0.278143406, 0)
+SEA2.Size = UDim2.new(0, 159, 0, 73)
+SEA2.Font = Enum.Font.PatrickHand
+SEA2.Text = "SEA 2"
+SEA2.TextColor3 = Color3.fromRGB(0, 0, 0)
+SEA2.TextScaled = true
+SEA2.TextSize = 14.000
+SEA2.TextWrapped = true
+
+UICorner_6.Parent = SEA2
+SEA2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/HUaFXGLA", true))()
+end)
+
+Abrirfecha.Name = "Abrirfecha"
+Abrirfecha.Parent = ScreenGui
+Abrirfecha.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Abrirfecha.Position = UDim2.new(0.331250012, 0, 0.162097722, 0)
+Abrirfecha.Size = UDim2.new(0, 99, 0, 30)
+Abrirfecha.Font = Enum.Font.PatrickHand
+Abrirfecha.Text = "Abrir/Fecha"
+Abrirfecha.TextColor3 = Color3.fromRGB(255, 255, 255)
+Abrirfecha.TextScaled = true
+Abrirfecha.TextSize = 14.000
+Abrirfecha.TextWrapped = true
+
+UICorner_7.Parent = Abrirfecha
+
+-- Scripts:
+
+local function UUISSXX_fake_script() -- Abrirfecha.LocalScript 
+	local script = Instance.new('LocalScript', Abrirfecha)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Framecell.Visible == false then
+			script.Parent.Parent.Framecell.Visible = true
+		else
+			script.Parent.Parent.Framecell.Visible = false
+		end
+	end)
+end
+coroutine.wrap(UUISSXX_fake_script)()
+local function ETXEDL_fake_script() -- Abrirfecha.Script 
+	local script = Instance.new('Script', Abrirfecha)
+
+	Abrirfecha = script.Parent.Abrirfecha -- Take out {}s, and put name of frame
+	Abrirfecha.Draggable = true
+	Abrirfecha.Active = true
+	Abrirfecha.Selectable = true
+end
+coroutine.wrap(ETXEDL_fake_script)()
+local function GAOV_fake_script() -- ScreenGui.Script 
+	local script = Instance.new('Script', ScreenGui)
+
+	Framecell = script.Parent.Framecell -- Take out {}s, and put name of frame
+	Framecell.Draggable = true
+	Framecell.Active = true
+	Framecell.Selectable = true
+end
+coroutine.wrap(GAOV_fake_script)()
+local function BQFQEB_fake_script() -- ScreenGui.Script 
+	local script = Instance.new('Script', ScreenGui)
+
+	Abrirfecha = script.Parent.Abrirfecha -- Take out {}s, and put name of frame
+	Abrirfecha.Draggable = true
+	Abrirfecha.Active = true
+	Abrirfecha.Selectable = true
+end
+coroutine.wrap(BQFQEB_fake_script)()
